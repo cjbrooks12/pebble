@@ -6,28 +6,48 @@ site:
 theme:
   primaryColor: '#72A6D0'
   menu:
+    # About section
     - type: 'separator'
       title: 'About'
     - type: 'page'
       title: 'Home'
       itemId: 'Home'
     - type: 'page'
-      itemId: 'Spring Boot Integration'
-    - type: 'link'
-      title: 'Spring petclinic example'
-      url: 'https://github.com/PebbleTemplates/spring-petclinic'
+      itemId: 'Changelog'
     - type: 'page'
       itemId: 'Twig Compatibility'
     - type: 'page'
       itemId: 'Contributing'
-    - type: 'page'
-      itemId: 'Changelog'
     - type: 'link'
       title: 'Offline Documentation (PDF)'
       url: '#{$0|baseUrl}/wiki/book.pdf'
+    # Integration section
+    #     Spring Integration section
+    - type: 'separator'
+      title: 'Integration'
+    - type: 'page'
+      itemId: 'Spring Boot Integration'
+    - type: 'link'
+      title: 'Pebble Spring Example'
+      url: 'https://github.com/PebbleTemplates/pebble-example-spring'
+    - type: 'link'
+      title: 'Spring petclinic example'
+      url: 'https://github.com/PebbleTemplates/spring-petclinic'
+    #     Ktor Integration section
+    - type: 'link'
+      title: 'Ktor Integration'
+      url: 'https://ktor.io/servers/features/templates/pebble.html'
+    #     Vert.x Integration section
+    - type: 'link'
+      title: 'Vert.x Integration'
+      url: 'https://vertx.io/preview/docs/vertx-web/java/#_pebble_template_engine'
+
+    # Wiki section
     - type: 'separator'
       title: 'Wiki'
     - type: 'wiki'
+
+    # API Docs section
     - type: 'separator'
       title: 'API Docs'
     - type: 'page'

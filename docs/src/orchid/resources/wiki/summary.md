@@ -1,8 +1,6 @@
 ## Guides
 - [Installation and Configuration](guide/installation.md)
 - [Spring Boot Integration](guide/spring-boot-integration.md)
-- [Spring petclinic](https://github.com/PebbleTemplates/spring-petclinic)
-- [Pebble Spring Example](https://github.com/PebbleTemplates/pebble-example-spring)
 - [Basic Usage](guide/basic-usage.md)
 - [Escaping](guide/escaping.md)
 - [Extending Pebble](guide/extending-pebble.md)
@@ -74,4 +72,3 @@
 - [logic](operator/logic.md) (`and`, `or`, `not`, `()`)
 - [math](operator/math.md) (`+`, `-`, `/`, `%`, `*`)
 - [others](operator/others.md) (`|`, `?:`)
-
