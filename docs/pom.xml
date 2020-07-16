@@ -16,7 +16,7 @@
   <url>http://pebbletemplates.io</url>
 
   <properties>
-    <orchid.version>0.17.4</orchid.version>
+    <orchid.version>0.21.1</orchid.version>
   </properties>
 
   <profiles>
@@ -58,6 +58,10 @@
               <theme>Editorial</theme>
               <version>${project.version}</version>
               <baseUrl>https://pebbletemplates.io</baseUrl>
+              <diagnose>true</diagnose>
+              <args>
+                <arg>--legacySourceDoc</arg>
+              </args>
             </configuration>
 
             <executions>

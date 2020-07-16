@@ -32,7 +32,7 @@ You can add the repository in your pom.xml
 ```
 
 ## Set Up
-If you are integrating Pebble with Spring MVC, read {{ anchor('this guide', 'Spring Integration') }}.
+If you are integrating Pebble with Spring MVC, read {{ anchor('this guide', 'Spring Boot Integration') }}.
 
 You will want to begin by creating a `PebbleEngine` which is responsible for coordinating the retrieval and
 compilation of your templates:

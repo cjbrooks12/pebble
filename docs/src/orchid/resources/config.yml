@@ -59,6 +59,9 @@ theme:
     - 'assets/css/github-fork-ribbon.css'
 
 services:
+  generators:
+    disabled:
+      - javadoc
   publications:
     stages:
       - type: githubPages
@@ -81,7 +84,7 @@ allPages:
 wiki:
   defaultConfig:
     includeIndexInPageTitle: false
-    createPdf: true
+    createPdf: false
 
 javadoc:
   sourceDirs:

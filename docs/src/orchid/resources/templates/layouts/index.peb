@@ -6,16 +6,12 @@
 -->
 <html>
 <head>
-{% include '?trackingHeadStart' %}
 {% head %}
 <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-{% styles %}
-{% include '?trackingHeadEnd' %}
 </head>
 <body class="is-loading">
-{% include '?trackingBodyStart' %}
-
+{% body %}
 <!-- Wrapper -->
 <div id="wrapper">
 
@@ -49,7 +45,6 @@
     {% include 'includes/sidebar.peb' %}
 </div>
 
-{% scripts %}
-{% include '?trackingBodyEnd' %}
+{% endbody %}
 </body>
 </html>
