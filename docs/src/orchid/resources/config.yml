@@ -84,7 +84,7 @@ allPages:
 wiki:
   defaultConfig:
     includeIndexInPageTitle: false
-    createPdf: false
+    createPdf: true
 
 javadoc:
   sourceDirs:
